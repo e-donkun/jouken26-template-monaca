@@ -1,0 +1,19 @@
+{
+  "name": "Monaca 情報研究",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "containerEnv": {
+    "TZ": "Asia/Tokyo"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.live-server",
+        "MS-CEINTL.vscode-language-pack-ja"
+      ],
+      "settings": {
+        "livePreview.serverRoot": "www",
+        "livePreview.defaultPreviewPath": "/index.html"
+      }
+    }
+  }
+}
